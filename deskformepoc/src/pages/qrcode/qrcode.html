@@ -1,14 +1,8 @@
-<!-- <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>QR Code</ion-title>
-  </ion-navbar>
-</ion-header> -->
-
 <ion-content no-bounce padding>
   <!-- <close-popup color="white" large="true" (closePopUp)="dismiss()"></close-popup> -->
+  <button ion-button icon-only clear tappable color-white (tap)="dismiss()">
+    <ion-icon name="md-close"></ion-icon>
+  </button>
 
   <div class="transparent-bg scanner-top">
     <p>Scan the desk QR Code</p>
