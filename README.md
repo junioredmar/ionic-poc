@@ -20,3 +20,5 @@ C:\Users\edmar\AppData\Local\Android\Sdk
 C:\Program Files\Java\jdk...
 - ver se o "javac -help" funciona
 
+# Debug?
+chrome://inspect/#devices
